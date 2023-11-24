@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  color: #333;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #007bff;
+}
+
+li {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Reach out to us via the methods below:</p>
+    <ul>
+      <li id="email">Email: info@astanait.edu.kz</li>
+      <li id="phone">Phone: (7172) 645706</li>
+      <li id="address">Address: Mangilik El Avenue, 55/11
+        EXPO Business Center, block C1
+        Astana, Kazakhstan, 010000</li>
+    </ul>
+  </div>
+
+  <script src="js/contact"></script>
+</body>
+</html>

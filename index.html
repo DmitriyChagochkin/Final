@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project</title>
+    <link href="css\bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img\favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css\fontello.css">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+  <main class="main">
+    <header class="header">
+          <a href="main.html" class="logo"><img src="img\logo.svg" alt="Logo" width="140px" height="70px"></a>
+
+          <input type="checkbox" id="check-navbar">
+          <label for="check-navbar" class="icons">
+            <i class="fa-solid fa-bars" style="color: #ffffff;" id="menu-icon"></i>
+            <i class="fa-solid fa-xmark" style="color: #ffffff;" id="close-icon"></i>
+          </label>
+            <nav class="navbar">
+                <a href="main.html" style="--i:0;">Home</a>
+                <a href="clubs.html" style="--i:2;">Clubs</a>
+                <a href="infra.html" style="--i:3;">Infrastructure</a>
+                <a href="contact.html" style="--i:4;">Contact us</a>
+                <a href="index.html" style="--i:5;">Quiz</a>
+            </nav>
+    </header>
+
+    <div class="container">
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>Quiz</h1>
+          <div class="quiz-header">
+            <span>Quiz about students</span>
+            <span class="header-score">Score: 0 / 5</span>
+          </div>
+          <h2 class="question-text">What is a common challenge students often face when managing their time?</h2>
+
+          <div class="option-list">
+          </div>
+
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 Questions</span>
+            <button class="next-btn">Next</button>
+          </div>
+        </div>
+
+        <div class="result-box">
+          <h2>Result!</h2>
+          <div class="percentage-container">
+            <div class="circular-progress">
+              <span class="progress-value">0%</span>
+            </div>
+
+            <span class="score-text">Your Score 0 out of 5</span>
+          </div>
+
+          <div class="buttons">
+            <button class="tryAgain-btn">Try Again</button>
+            <button class="goHome-btn">Go To Home</button>
+          </div>
+        </div>
+      </section>
+          <section class="home">
+            <div class="home-content">
+              <h1>Quiz about students</h1>
+              <p>a simple test consisting of 5 questions</p>
+              <button class="start-btn">Start Quiz</button>
+          </div>
+        </section>
+      </div>
+      <section>
+            
+     </section>
+
+<section>
+    <footer class="footer">
+    </footer>
+  </section>
+  </main>
+  <div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1. you will not be able to leave the page until you complete the test</span>
+    <span class="info">2. There is only one correct answer, at the end you will see the result</span>
+    <span class="info">3. Good luck!</span>
+
+    <div class="btn-group">
+      <button class="info-btn exit-btn">Exit</button>
+      <a href="#" class="info-btn continue-btn">Continue</a>
+    </div>
+  </div>
+
+    <script src="js\index.js"></script>
+    <script src="js\questions.js"></script>
+    <script src="https://kit.fontawesome.com/67c3ba6c10.js" crossorigin="anonymous"></script>
+    <script src="js\bootstrap.bundle.min.js"></script>
+</body>
+</html>
